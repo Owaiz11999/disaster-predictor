@@ -27,16 +27,16 @@ Streamlit web app to predict disaster severity and recommend emergency resources
 
 
 
-├── main.py                  # Streamlit app
-├── utils/
-│   ├── train.py             # Model training & prediction
-│   ├── geograph.py          # Geospatial utilities
-│   └── resource.py          # Emergency resource recommendation logic
-├── models/
-│   └── impact_predictor.pkl # Trained Random Forest model
-├── data/
-│   └── emdat_disasters.xlsx # Source data
-└── requirements.txt
+|--main.py # Streamlit app
+|-- utils/
+│   |--train.py             # Model training & prediction
+│   |-- geograph.py          # Geospatial utilities
+│   |-- resource.py          # Emergency resource recommendation logic
+|-- models/
+|   |-- impact_predictor.pkl # Trained Random Forest model
+|--data/
+|  |--emdat_disasters.xlsx # Source data
+|--requirements.txt
 
 
 ## Setup
